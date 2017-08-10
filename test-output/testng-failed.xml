@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="testParam" value="test123"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="firsttestngpackage.FirstTestNGFile">
+        <methods>
+          <include name="ClickOSMenu"/>
+          <include name="SelectPC"/>
+          <include name="ClickChromeTab"/>
+          <include name="Select40"/>
+          <include name="setUp"/>
+          <include name="clickDeviceMenu"/>
+          <include name="afterTest"/>
+          <include name="init"/>
+          <include name="SelectWinXP"/>
+          <include name="clickSelenium"/>
+        </methods>
+      </class> <!-- firsttestngpackage.FirstTestNGFile -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9889" started-at="2017-08-10T14:39:50Z" finished-at="2017-08-10T14:40:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9889" started-at="2017-08-10T14:39:50Z" finished-at="2017-08-10T14:40:00Z">
+      <class name="firsttestngpackage.FirstTestNGFile">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:firsttestngpackage.FirstTestNGFile@10d68fcd]" name="setUp" is-config="true" duration-ms="22" started-at="2017-08-10T10:39:50Z" finished-at="2017-08-10T10:39:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:firsttestngpackage.FirstTestNGFile@10d68fcd]" name="init" is-config="true" duration-ms="7" started-at="2017-08-10T10:39:50Z" finished-at="2017-08-10T10:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testingParam(java.lang.String, [[I)[pri:0, instance:firsttestngpackage.FirstTestNGFile@10d68fcd]" name="testingParam" duration-ms="11" started-at="2017-08-10T10:39:50Z" data-provider="testDataProvider" finished-at="2017-08-10T10:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[[I@73700b80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingParam -->
+        <test-method status="PASS" signature="gotoURL()[pri:1, instance:firsttestngpackage.FirstTestNGFile@10d68fcd]" name="gotoURL" duration-ms="3982" started-at="2017-08-10T10:39:50Z" finished-at="2017-08-10T10:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoURL -->
+        <test-method status="PASS" signature="clickSelenium()[pri:2, instance:firsttestngpackage.FirstTestNGFile@10d68fcd]" name="clickSelenium" duration-ms="1055" started-at="2017-08-10T10:39:54Z" finished-at="2017-08-10T10:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSelenium -->
+        <test-method status="PASS" signature="clickDeviceMenu()[pri:3, instance:firsttestngpackage.FirstTestNGFile@10d68fcd]" name="clickDeviceMenu" duration-ms="305" started-at="2017-08-10T10:39:55Z" finished-at="2017-08-10T10:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDeviceMenu -->
+        <test-method status="PASS" signature="SelectPC()[pri:4, instance:firsttestngpackage.FirstTestNGFile@10d68fcd]" name="SelectPC" duration-ms="457" started-at="2017-08-10T10:39:56Z" finished-at="2017-08-10T10:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectPC -->
+        <test-method status="PASS" signature="ClickOSMenu()[pri:5, instance:firsttestngpackage.FirstTestNGFile@10d68fcd]" name="ClickOSMenu" duration-ms="415" started-at="2017-08-10T10:39:56Z" finished-at="2017-08-10T10:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOSMenu -->
+        <test-method status="PASS" signature="SelectWinXP()[pri:6, instance:firsttestngpackage.FirstTestNGFile@10d68fcd]" name="SelectWinXP" duration-ms="1361" started-at="2017-08-10T10:39:56Z" finished-at="2017-08-10T10:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectWinXP -->
+        <test-method status="PASS" signature="ClickBrowserMenu()[pri:7, instance:firsttestngpackage.FirstTestNGFile@10d68fcd]" name="ClickBrowserMenu" duration-ms="290" started-at="2017-08-10T10:39:58Z" finished-at="2017-08-10T10:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickBrowserMenu -->
+        <test-method status="PASS" signature="ClickChromeTab()[pri:8, instance:firsttestngpackage.FirstTestNGFile@10d68fcd]" name="ClickChromeTab" duration-ms="388" started-at="2017-08-10T10:39:58Z" finished-at="2017-08-10T10:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickChromeTab -->
+        <test-method status="PASS" signature="Select40()[pri:9, instance:firsttestngpackage.FirstTestNGFile@10d68fcd]" name="Select40" duration-ms="671" started-at="2017-08-10T10:39:58Z" finished-at="2017-08-10T10:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select40 -->
+        <test-method status="PASS" signature="ClickJavaTab()[pri:10, instance:firsttestngpackage.FirstTestNGFile@10d68fcd]" name="ClickJavaTab" duration-ms="286" started-at="2017-08-10T10:39:59Z" finished-at="2017-08-10T10:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickJavaTab -->
+        <test-method status="PASS" signature="ClickCopyButton()[pri:11, instance:firsttestngpackage.FirstTestNGFile@10d68fcd]" name="ClickCopyButton" duration-ms="277" started-at="2017-08-10T10:39:59Z" finished-at="2017-08-10T10:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCopyButton -->
+        <test-method status="PASS" signature="test1(org.testng.ITestContext)[pri:12, instance:firsttestngpackage.FirstTestNGFile@10d68fcd]" name="test1" duration-ms="2" started-at="2017-08-10T10:40:00Z" finished-at="2017-08-10T10:40:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ea6147e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:firsttestngpackage.FirstTestNGFile@10d68fcd]" name="afterTest" is-config="true" duration-ms="269" started-at="2017-08-10T10:40:00Z" finished-at="2017-08-10T10:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- firsttestngpackage.FirstTestNGFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
